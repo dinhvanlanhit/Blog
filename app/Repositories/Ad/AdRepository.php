@@ -55,6 +55,7 @@ class AdRepository extends EloquentRepository
         $setting->file_image_name = $request->file_image_name;
         if($setting->save()){
             Cache::forget('getAllAds');
+            Cache::forget('setting');
             return true;
         }else{
             return false;
@@ -94,10 +95,7 @@ class AdRepository extends EloquentRepository
         $setting = Setting::find(1);
         $setting->AdSense = $request->AdSense;
         if($setting->save()){
-<<<<<<< Updated upstream
-=======
             Cache::forget('getAllAds');
->>>>>>> Stashed changes
             Cache::forget('setting');
             return true;
         }else{
