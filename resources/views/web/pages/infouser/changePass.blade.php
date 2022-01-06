@@ -62,9 +62,6 @@
 <script src="{{asset('assets/web/profile/profile.js')}}"></script>
 <script>
    var profile = new profile();
-   profile.datas={
-
-   }
-   profile.init();
+   profile.changePassword();
 </script>
 @endsection

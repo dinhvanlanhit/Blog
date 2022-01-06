@@ -66,6 +66,8 @@ function profile(){
                 }
             });
         });
+    }
+    this.changePassword =function(){
         $("#formChangePass").on('submit',function(e){
             e.preventDefault();
             $("#alertJS").empty();
