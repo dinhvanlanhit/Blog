@@ -175,11 +175,10 @@
               </div>
               <!-- /.card-footer -->
             </div>
-            <div class="card">
+            {{-- <div class="card">
                 <div class="card-header">
                   <h3 class="card-title">Truy cập gần đây</h3>
                 </div>
-                <!-- /.card-header -->
                 <div class="card-body p-0">
                   <table class="table table-bordered table-sm">
                       <thead>
@@ -209,13 +208,10 @@
                   </table>
                   <!-- /.users-list -->
                 </div>
-                <!-- /.card-body -->
                 <div class="card-footer text-center">
-                  {{-- <a href="{{ route('admin.contact.view') }}">Xem tất cả liên hệ</a> --}}
+                 
                 </div>
-                <!-- /.card-footer -->
-              </div>
-            <!--/.card -->
+            </div>  --}}
         </div>
         <div class="col-md-6">
             <!-- USERS LIST -->
